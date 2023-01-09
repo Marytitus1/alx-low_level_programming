@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main => program that print it's name
+ * main - program that print it's name
  * @argc: argc parameter
  * @argv: an array of arguments
  *
