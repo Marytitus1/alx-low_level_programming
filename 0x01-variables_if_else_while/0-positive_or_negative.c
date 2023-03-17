@@ -1,10 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * main - print a random number 
+ * main - print a random number
+ *
  * Return: 0 on success
- * On error: return 1
  */
 
 /* betty style doc for function main goes there */
