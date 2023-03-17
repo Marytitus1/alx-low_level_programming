@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main: using the printf function to print to stdout
- * Return 0: on success
+ * main - using the printf function to print to stdout
+ * Return: 0 on success
  * On error: return -1
  */
 int main(void)
