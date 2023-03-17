@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** main - Get a random number and print the number
- * and if it is positive, zero or negative 
+/**
+ * main - print a random number 
  * Return: 0 on success
  * On error: return 1
  */
