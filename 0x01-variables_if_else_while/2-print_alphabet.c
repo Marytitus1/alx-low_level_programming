@@ -8,12 +8,13 @@
  */
 int main(void)
 {
-int i;
+char i = 'a';
 
-for (i = 'A'; i <= 'Z'; i++)
+while (i <= 'Z')
 {
-	i = tolower(i);
 	putchar(i);
+	i++;
+
 }
 
 putchar('\n');
