@@ -1,6 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-
 /**
  * main - print alphabets in lowercase using putchar
  *
@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-char i = 'a';
 
-while (i <= 'Z')
+char alphabet = 'a';
+
+while (alphabet <= 'Z')
 {
-	putchar(i);
-	i++;
-
+	putchar(tolower(alphabet));
+	alphabet++;
 }
 
 putchar('\n');
