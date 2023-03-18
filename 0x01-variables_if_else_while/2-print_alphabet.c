@@ -11,9 +11,9 @@ int main(void)
 
 char alphabet = 'a';
 
-while (alphabet <= 'Z')
+while (alphabet <= 'z')
 {
-	putchar(tolower(alphabet));
+	putchar(alphabet);
 	alphabet++;
 }
 
