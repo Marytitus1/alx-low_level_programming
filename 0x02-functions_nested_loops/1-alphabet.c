@@ -4,8 +4,8 @@
  * main -  prints the alphabet, in lowercase
  *
  * Return: 0 on success
- * On error, return 1
  */
+
 void print_alphabet(void)
 {
 	char c;
