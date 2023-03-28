@@ -1,18 +1,19 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * _puts - prints a string to stdout
  * @str: string to be printed
- * Retirn: always 0
+ *
+ * Return: always 0
  * On error, return -1
  */
 void _puts(char *str)
 {
-	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (*str != '\0')
 	{
-		_putchar(str[i]);
+		putchar(*str++);
 	}
-	_putchar('\n');;
+	putchar('\0');
 }
